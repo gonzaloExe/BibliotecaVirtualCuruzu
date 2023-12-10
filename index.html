@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="logoDeCarga.css">
+    <link rel="stylesheet" href="index.css">
+    <title>biblioteca</title>
+</head>
+
+<body>
+    <!-- echo por G.C-->
+    <!-- logo de carga -->
+    <div class="contenedor_loader" id="loader">
+        <div class="loader"></div>
+    </div>
+
+
+    <!-- barra de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid  ">
+            <a class="navbar-brand" href="#">
+                <img src="img/logoo.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
+
+            </a>
+            <h7 class="pt-1"><span class="navbar-text">
+                    <span class="navbar-text">
+                        <b class="fw-bold text-warning">Biblioteca</b>
+                        <b class="fw-bold text-danger">Virtual</b>
+                        <b class="fw-bold text-primary">Curuzú</b>
+                    </span>
+            </h7>
+            <div class="d-flex">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown fw-bold">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Ciclo Basico
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Blengua.php">Lengua y Literatura</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="BMatemáticas.php">Matemáticas</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="BHistoria.php">Historia</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="BInglés.php">Inglés</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="BGeografía.php">Geografía</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="BBiología.php">Biología</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="BFísico-Químca.php">Físico-Química</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="BF. E. y C..php">F. E. y C.</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="BTecnología.php">Tecnología</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown fw-bold">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Ciclo Orientado
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Blengua.php">Lengua</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="BMatemáticas.php">Matemáticas</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="BHistoria.php">Historia</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="BInglés.php">Inglés</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="BGeografía.php">Geografía</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="BBiología.php">Biología</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="BFísico-Químca.php">Físico-Química</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="BF. E. y C..php">F. E. y C.</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="BTecnología.php">Tecnología</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="OCurrículum.php">Currículum</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="OCartaDePresentación.php">Carta de presentación</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="OEntrevista.php">Entrevista</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown fw-bold">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Tecnicas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="TSemillas.php">Semillas</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="TLaTierra.php">La Tierra</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown fw-bold">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Juegos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="pasapalabra/pasaLengua.html">P.Palabra Lengua y Literatura</a></li>
+                             <hr class="dropdown-divider">
+                             <li><a class="dropdown-item" href="pasapalabra/pasaBiologia.html">P.Palabra Biología</a></li>
+                             <hr class="dropdown-divider">
+                             <li><a class="dropdown-item" href="pasapalabra/pasaMatematicas.html">P.Palabra Matemáticas</a></li>
+                             <hr class="dropdown-divider">
+                             <li><a class="dropdown-item" href="pasapalabra/pasaHistoria.html">P.Palabra Historia</a></li>  
+                             <hr class="dropdown-divider">
+                             <li><a class="dropdown-item" href="pasapalabra/pasaGeografia.html">P.Palabra Geografía</a></li>
+                             <hr class="dropdown-divider">
+                             <li><a class="dropdown-item" href="pasapalabra/pasaFisico.html">P.Palabra Físico-Química</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/juegos.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/secundaria.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/primaria.webp" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section class="d-flex flex-column justify-content-center align-items-center pt-5 text-center w-50 m-auto"
+        id="intro">
+        <h5 class="p-3 fs-2 border-top border-3">Biblioteca pública que te ayudará con tus necesidades de aprendizaje.
+            <span class="text-primary">Biblioteca</span>
+        </h5>
+    </section>
+
+
+
+
+    <section class="w-100">
+
+        <div class="row w-75 mx-auto" id="servicios-fila-1">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="img/lectura.jpg" alt="desarrollo" width="100" height="90">
+
+                <div>
+                    <h5 class="fs-3 mt-4 px-4 pb-1">Lectura</h5>
+                    <p class="px-4">La lectura es importante porque nos permite aprender, reflexionar, comunicarnos
+                        mejor, mantener nuestra mente activa, estimular nuestra imaginación
+                        y disfrutar de momentos de relajación. Es una herramienta poderosa para el crecimiento personal
+                        y el enriquecimiento de nuestras vidas.</p>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+                <img src="img/creatividad.jpg" alt="concepto" width="100" height="90">
+
+                <div>
+                    <h3 class="fs-3 mt-4 px-4 pb-1 icono-wrap">Creatividad</h3>
+                    <p class="px-4">Desarrollo de la imaginación y la creatividad: Al sumergirnos en un libro, nuestra
+                        imaginación se despierta y nos transporta a nuevos mundos y realidades. La lectura estimula
+                        la creatividad al presentarnos diferentes escenarios, personajes y situaciones, lo que puede
+                        inspirarnos en nuestra propia vida y en la generación de ideas originales.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row w-75 mx-auto" id="servicios-fila-1">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="img/logoo.png" alt="desarrollo" width="120" height="110">
+
+                <div>
+                    <h5 class="fs-3 mt-4 px-4 pb-1"> <span class="navbar-text">
+                            <b class="fw-bold text-warning">Biblioteca</b>
+                            <b class="fw-bold text-danger">Virtual</b>
+                            <b class="fw-bold text-primary">Curuzú</b>
+                        </span></h5>
+                    <p class="px-4">La biblioteca es un lindo lugar porque:
+                    <p> *Es un centro de recursos para el aprendizaje, especialmente para la educacion secundaria.</p>
+                    <p>*Ayuda al crecimiento y desarrollo de las sociedades.</p>
+                    
+                    <p>*Tiene una gran variedad de libros de uso público.</p>
+                    <p>*Recursos educativos gratuitos para estudiantes y educadores.</p>
+                    </p>
+                </div>
+
+            </div>
+    </section>
+    <footer class=" w-100 d-flex aling-items justify-content-center flex-wrap bg-light mb-0 p-2 pt-2 text-center">
+        <p class="fs-8 ">
+            </div> &copy; Todos los derechos
+            reservados a los alumnos de
+            la Tecnicatura en Desarrollo de Software 2023. </p>
+        <div class="iconos">
+            <a href=""><i class="bi bi-facebook text-dark"></i></a>
+            <a href=""><i class="bi bi-twitter text-dark"></i></a>
+            <a href=""><i class="bi bi-instagram text-dark"></i></a>
+        </div>
+    </footer>
+
+    <script src="mainLogoCarga.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

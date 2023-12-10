@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "bibliotecadefinitiva",
+  "private_key_id": "0a72b2b3571621eece0de696529ceabc2fa5c040",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCnHrlonK2B93B1\ns5V+Xh07wC1n292V20VcyKd4/vQNkKULrGTTI6fscAhcqe3DmJlWRa0zzWC25Ygs\nrSL6wgEwOaYMKhxpl5idaVle886dKPlIaVbiI+iqyTSZckJxo+wyANLlhB2nEbHB\n8WFX7fK/Ip3bVNtDJO4o1lsUBU89omvFuqSkeumgElOtOZJf0dt9fPPK3m4PeNC9\njtd83fNg07kb97M4LIuhnHM4XSni17hLutRWkJ1AT7Taslsp3t+UudptsKLLNaaj\nj/MnS6WZYYcrP+uIJZUM0EWDJRfX8eev7R2MK40eZHHyy3ja4eEsrenfUA38n/b4\nNF8k4S1bAgMBAAECggEAEuxyuDrNluLq9BkCu41yp/pp6dHGtJpgr1H1TMkp34Na\nfQjnXdUyxZ4mBEAlsTlNW6yGIVCHPA6frddpF5XyRoCwob3++6Hz4Rc1zH+1DKzA\nFYgAE5lXVkd0Uk/S4EVckIjxWJXuOaXSSBDKIgfKrgQAdf6U2XSMF0m2hHzZbTQQ\n/AO05Kt/c1KQuICPoTX/87721N0I6/7th7RxeveCVFlxN0YkS2ianvvgm/KnFpb5\n14CSvQ3JXproOxlK1EkSXjrJ+stFS9MliroWb1oYjiXd1kyc86hChy2DPQsjHLhM\nChJsLiQuEHW9He0KEnJq7xLHKizcs5DlK/BDOT2tkQKBgQDmdnGK+rnUD9EDVVtz\nLcKYBDkZI5KfLK9w0mIy/If8KwzUiCtrgVPI715QIXw7O8tRJiyziLckreiGihPg\nGbwkyn6c1+9lN4LhQG5xtwX/ec0//kxWaNOxMxJpyYGVwcPWXeU6wyK0yxiBO9yP\n7OVElK9B9pRzkYvomLc0IlCH6QKBgQC5o28D6s0wPFL5g0E58DfcTYawVP3aX0pW\n9lFXNu1ciCDgEWwv7VIMxl8hRF7ptg1jcGYRtRjlU5M0US/9gnYNFrSGE7GTb5l4\n6ZPJn/9HYxMfdtPwvHrDIfEbJTiQIbjkA3dEW2RBEdz6oG+d/GyKU/opwZzWHgbR\nhszZi8MEowKBgBupN7OQqGE1jMazpghLA8IvL5M+28hTGrOV7Mdl3AR+Pkn8FgoP\nObkyUcWYX0rUwHB6/n6F+EVkwjXzuLL7I8PeshetK0Sgxwq2KwtnBkdFnUcDBLKS\nXmY0VQ9xaiZJXXILTwoghbfhcI2CW9TCgDodBnQKXoMIgxxlyAdv3u6RAoGAE9hS\n39pUARoRzLapXGY/sn9fLK6JTLTvH4jJfUdT7JZo3Us/g4gdQ1xZgxbqBpX9rGmx\nn6b6eFmM3QTo2nL957xLpCGq1BYUFAb0U5OVGK6QtsZfNdcQUJfqTHqYJ2BTgZyV\nPWt/ti0QsIJCLGN1vvvnPFuERqeDFxcQAxmbyX0CgYEA0Z0hyrUBUO2G5KfIAkDk\nT+9wQ3nVk06mmiO6x5UNeCoDgpIXhtAZcUqqRfHyQow4eCm2dY+pEBHvd1aGCnn7\ncJMTFWevzPJkOlWD2iDaj7ZDd/pmQddbiBwY7dlYumG0bpZPq1FFaCa61gHKc7jb\nDtkh+eFsqbhkO61rrV6CszA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "testbiblioteca@bibliotecadefinitiva.iam.gserviceaccount.com",
+  "client_id": "103466803273323918967",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/testbiblioteca%40bibliotecadefinitiva.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
